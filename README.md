@@ -38,7 +38,14 @@ The goal of this app is to make cooking simpler, faster, and more personalized. 
    Works on both desktop and mobile devices.
 
 ---
+## 🛠️ Tech Stack
 
+- **React** – Frontend library
+- **Axios** – API calls
+- **Tailwind CSS** – Styling
+- **ThemealDB API** – Meal data source
+
+---
 ## Demo
 
 A live demo can be hosted on platforms like Netlify, Vercel, or CodeSandbox. Example:  
