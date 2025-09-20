@@ -2,7 +2,7 @@ import React from "react";
 
 export const RecipeCard = () => {
   return (
-    <div className="flex flex-row m-auto">
+    <div className="flex flex-row p-8 m-auto">
       <div className="bg-white shadow-lg rounded-2xl overflow-hidden w-64 hover:scale-105 transition-transform duration-300">
         <img
           src=""
