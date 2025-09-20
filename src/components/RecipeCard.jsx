@@ -4,7 +4,7 @@ export const RecipeCard = ({ title, image }) => {
   const FastImage = image + "/medium";
   return (
     <div className="flex flex-row p-8 m-auto">
-      <div className="bg-white shadow-lg rounded-2xl border border-black overflow-hidden w-75 hover:scale-105 transition-transform duration-300">
+      <div className="bg-white shadow-lg rounded-2xl border border-black overflow-hidden w-64 hover:scale-105 transition-transform duration-300">
         <img
           src={FastImage}
           //   src={image}
