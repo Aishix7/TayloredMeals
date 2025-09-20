@@ -1,5 +1,6 @@
 import "./App.css";
 import { SearchBar } from "./components/SearchBar";
+import { RecipeList } from "./pages/RecipeList";
 
 export default function App() {
   const handleSearch = (ingredient) => {
@@ -8,6 +9,7 @@ export default function App() {
   return (
     <div>
       <SearchBar onSearch={handleSearch} />
+      <RecipeList />
     </div>
   );
 }
