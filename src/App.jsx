@@ -12,7 +12,6 @@ export default function App() {
     try {
       const response = await getMeal(ingredient);
       console.log("API Response:", response.data);
-
       if (response.data.meals) {
         setRecipes(response.data.meals);
       } else {
