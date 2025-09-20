@@ -50,13 +50,16 @@ Clone the repository:
 git clone https://github.com/<your-username>/TayloredMeals.git
 cd TayloredMeals
 
+
 Install dependencies:
 
 npm install
 
+
 Start the development server:
 
 npm start
+
 
 Open your browser and visit:
 
@@ -82,11 +85,13 @@ Search by ingredient:
 
 https://www.themealdb.com/api/json/v1/1/filter.php?i={ingredient}
 
+
 Replace {ingredient} with the user input.
 
 Get meal details by ID:
 
 https://www.themealdb.com/api/json/v1/1/lookup.php?i={idMeal}
+
 
 This provides detailed cooking instructions and YouTube links.
 
@@ -94,18 +99,18 @@ Project Structure
 TayloredMeals/
 │
 ├─ src/
-│ ├─ api/
-│ │ └─ PostApi.jsx # Axios API calls
-│ ├─ components/
-│ │ ├─ IngredientsList.jsx
-│ │ ├─ RecipeCard.jsx
-│ │ ├─ RecipeDetails.jsx
-│ │ └─ SearchBar.jsx
-│ ├─ pages/
-│ │ └─ RecipeList.jsx
-│ ├─ App.jsx
-│ ├─ main.jsx
-│ └─ index.css
+│  ├─ api/
+│  │  └─ PostApi.jsx      # Axios API calls
+│  ├─ components/
+│  │  ├─ IngredientsList.jsx
+│  │  ├─ RecipeCard.jsx
+│  │  ├─ RecipeDetails.jsx
+│  │  └─ SearchBar.jsx
+│  ├─ pages/
+│  │  └─ RecipeList.jsx
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
 │
 ├─ package.json
 └─ README.md
