@@ -1,8 +1,6 @@
-// components/IngredientsList.jsx
 import React from "react";
 
 export const IngredientsList = ({ recipe, onClose }) => {
-  // Some meals have up to 20 ingredients in the API
   const ingredients = [];
   for (let i = 1; i <= 20; i++) {
     const ingredient = recipe[`strIngredient${i}`];
@@ -30,9 +28,9 @@ export const IngredientsList = ({ recipe, onClose }) => {
           {recipe.strMeal}
         </h2>
         <h3 className="text-xl font-semibold text-orange-400 mb-2 text-center">
-          Ingredients
+          Ingredients List
         </h3>
-        <ul className="list-disc list-inside text-black space-y-1">
+        <ul className=" text-black space-y-1">
           {ingredients.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
