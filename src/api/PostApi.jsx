@@ -7,3 +7,7 @@ const api = axios.create({
 export const getMeal = (ingredient) => {
   return api.get(`filter.php?i=${ingredient}`);
 };
+
+export const getMealDetails = (idMeal) => {
+  return api.get(`lookup.php?i=${idMeal}`);
+};
