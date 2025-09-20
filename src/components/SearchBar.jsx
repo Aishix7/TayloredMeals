@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { SearchIcon } from "lucide-react";
-import { getMeal } from "../api/PostApi";
 export const SearchBar = ({ onSearch }) => {
   const [ingredient, setIngredient] = useState("");
 
