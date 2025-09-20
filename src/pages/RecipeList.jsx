@@ -37,6 +37,17 @@ export const RecipeList = ({ recipes }) => {
     setShowDetails(false);
   };
 
+  if (!recipes || recipes.length === 0) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <h1 className="text-center text-2xl font-bold text-black">
+          Hey Taylor, what do you feel like cooking today? Enter your Magical
+          ingredient of the day :)
+        </h1>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-wrap justify-center gap-4 p-4">
       {recipes?.map((recipe) => (
