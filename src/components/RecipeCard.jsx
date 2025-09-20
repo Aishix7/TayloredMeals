@@ -1,6 +1,6 @@
 import React from "react";
 
-export const RecipeCard = ({ title, image }) => {
+export const RecipeCard = ({ title, image, onShowIngredients }) => {
   const FastImage = image + "/medium";
   return (
     <div className="flex flex-row p-8 m-auto">
@@ -16,7 +16,10 @@ export const RecipeCard = ({ title, image }) => {
             {title}
           </h2>
           <div className="flex items-center justify-center space-x-4 p-4">
-            <button className="p-2 font-semibold border border-black shadow-lg rounded-xl bg-orange-400 w-full">
+            <button
+              onClick={onShowIngredients}
+              className="p-2 font-semibold border border-black shadow-lg rounded-xl bg-orange-400 w-full"
+            >
               Ingredients
             </button>
             <button className="p-2 font-semibold border border-black rounded-xl shadow-lg bg-orange-400 w-full">
