@@ -46,6 +46,27 @@ netlify : https://tayloredmeals.netlify.app/
 codesandbox : https://codesandbox.io/p/github/Aishix7/TayloredMeals/main?import=true     
 
 ---
+## Project structure 
+
+TayloredMeals/
+│
+├─ src/
+│  ├─ api/
+│  │  └─ PostApi.jsx      # Axios API calls
+│  ├─ components/
+│  │  ├─ IngredientsList.jsx
+│  │  ├─ RecipeCard.jsx
+│  │  ├─ RecipeDetails.jsx
+│  │  └─ SearchBar.jsx
+│  ├─ pages/
+│  │  └─ RecipeList.jsx
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
+│
+├─ package.json
+└─ README.md
+
 
 ## Installation
 
@@ -53,6 +74,9 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/TayloredMeals.git
+   git clone https://github.com/Aishix7/TayloredMeals.git
    cd TayloredMeals
+
+
+
 
